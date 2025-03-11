@@ -185,6 +185,7 @@ nav {
     position: relative;
     font-size: 16px;
     transition: 400ms;
+    width: fit-content;
     padding-bottom: 5px;
 }
 
