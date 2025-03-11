@@ -47,6 +47,10 @@ body {
     font-family: var(--body-font-family);
 }
 
+.each-section-block-gap {
+    padding-block: 20px;
+}
+
 .submitpage-body {
     background-color: var(--primary-color);
     display: flex;
@@ -243,11 +247,7 @@ nav {
 }
 
 .heading-section {
-    margin-bottom: 25px;
-}
-
-.about-section {
-    padding-block: 50px;
+    margin-bottom: 10px;
 }
 
 .right-about img {
@@ -264,9 +264,6 @@ nav {
     text-align: justify;
 }
 
-.product-section {
-    padding-block: 50px;
-}
 
 .product-section-heading {
     color: var(--primary-color);
@@ -481,7 +478,6 @@ nav {
 }
 
 .director-message {
-    padding-block: 50px;
     background-color: var(--dark-theme-color);
 }
 
@@ -517,7 +513,6 @@ nav {
 }
 
 .testimonial-section {
-    padding-block: 50px;
     background: linear-gradient(135deg, #ffd700 0%, #ffcc33 100%);
 }
 
@@ -596,10 +591,7 @@ nav {
     color: var(--primary-color);
 }
 
-.getin-touch-section {
-    /* background-color: var(--primary-color); */
-    padding-block: 50px;
-}
+.getin-touch-section {}
 
 .heading-section-getin-touch {
     margin-bottom: 60px;
@@ -653,7 +645,6 @@ nav {
 footer {
     background-color: var(--dark-theme-color);
     color: white;
-    padding-block: 40px;
 }
 
 footer h4 {

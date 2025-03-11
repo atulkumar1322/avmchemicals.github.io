@@ -69,5 +69,20 @@
         font-size: 18px;
     }
 
+    .header-content {
+        display: none;
+    }
+
+    .navbar-brand img {
+        width: 50px;
+    }
+
+    nav.navbar {
+        padding-block: 0px;
+    }
+
+    .heading-section {
+        margin-bottom: 10px;
+    }
 
 }
