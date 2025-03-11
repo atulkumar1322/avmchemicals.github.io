@@ -1,0 +1,73 @@
+@media screen and (min-width:992.98px) {
+    nav {
+        height: 70px;
+    }
+
+    .carousel-inner img {
+        width: 100%;
+        height: 600px;
+        /* object-fit: fill; */
+    }
+
+    .right-about img {
+        height: 410px;
+    }
+
+}
+
+@media screen and (max-width:991.98px) {
+    .header-content {
+        flex-direction: column;
+    }
+
+    .carousel-inner {
+        height: unset;
+    }
+}
+
+@media screen and (max-width:767.98px) {
+    .products-section .card {
+        min-height: unset;
+    }
+
+    .products-section .card a {
+        position: static;
+    }
+
+    .card-image-container {
+        height: unset;
+        max-height: unset;
+    }
+
+    .carousel-caption h2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:575.98px) {
+    .header-content .contact-section {
+        flex-direction: column;
+    }
+
+    .header-content {
+        align-items: self-start;
+    }
+
+    .submit-box {
+        width: 90%;
+        height: fit-content;
+        padding-block: 25px;
+    }
+
+    .product-section-tag-line,
+    .testimonial-section-tag-line,
+    .getin-touch-tagline {
+        font-size: 17px;
+    }
+
+    .carousel-caption h2 {
+        font-size: 18px;
+    }
+
+
+}
