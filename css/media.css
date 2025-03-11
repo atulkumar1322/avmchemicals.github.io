@@ -82,7 +82,11 @@
     }
 
     .heading-section {
-        margin-bottom: 10px;
+        margin-bottom: 0px;
+    }
+
+    .each-section-block-gap {
+        padding-block: 13px;
     }
 
 }
